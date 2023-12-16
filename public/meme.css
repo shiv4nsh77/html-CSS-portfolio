@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(2, 29, 29);
+}
+h1 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  
+}
+.A{
+    width:50%;
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    margin-top: 100PX;
+    margin-left:25%;
+    
+}
+.B{
+    width: 100%;
+    border: 5px solid white;
+    padding: 5%;
+}

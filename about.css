@@ -1,0 +1,60 @@
+*{
+    background-color:  rgb(214, 173, 182);
+}
+.schooling{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    
+}
+.scroll{
+    text-align: center;
+    background-color: rgba(141, 83, 102, 0.544);
+    font-family: Ysabeau Infant;
+    max-height: 400px;
+    max-width: 500px;
+    overflow-y: scroll ;
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+.imga{
+    height: 150px;
+    width: 200px;
+    margin-left: 25%;
+}
+.imgb{
+    margin-left: 25%;
+}
+.school-name{
+    font-family: Ysabeau Infant;
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+    background-color: rgba(100, 43, 19, 0.16);
+    border-radius: 20px 0 ;
+}
+.sub-heading{
+    text-align: center;
+}
+@media(min-width:319px) and (max-width:500px){
+    .school-name{
+        font-size: 15px;
+    }
+    .imga{
+        margin-left: 10%;
+        width: 150px;
+        height: 120px;
+        margin-bottom: 0px;
+    }
+    .imgb{
+        margin-left: 20px;
+        width: 150px;
+        height: 120px;
+    }
+    .scroll{
+        font-size: small;
+        width: 200px;
+    }
+}
